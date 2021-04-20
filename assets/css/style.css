@@ -20,6 +20,9 @@
 
 .question-holder {
     height: 10rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .answer-container {
