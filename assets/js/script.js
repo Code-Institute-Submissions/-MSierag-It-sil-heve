@@ -231,8 +231,50 @@ const answers = Array.from(document.getElementsByClassName("answer-text"));
 const questionCounterText = document.getElementById("counter");
 const scoreText = document.getElementById("score");
 
-console.log(questions);
 let questionCounter;
 let score;
+const MAX_QUESTIONS = 3;
 
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    console.log(questions);
 
+    availableQuestions = getRandomQuestions(questions, MAX_QUESTIONS);
+    console.log(availableQuestions);
+    getNewQuestion();
+};
+
+const getRandomQuestions = (arr, n) => {
+    let len = arr.length;
+    if(n > len){
+        throw new RangeError(
+            "getRandomQuestions: more elements taken than available"
+        );
+    }
+
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+
+    return (selected = shuffled.slice(0, n));
+};
+
+const getNewQuestion = () => {
+    if(availableQuestions.length === 0){
+        alert("End of game");
+        return;
+    }
+
+    questionCounter++;
+    questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+
+    currentQuestion = availableQuestions[0];
+    console.log(currentQuestion);
+    question.innerText = currentQuestion.question;
+
+    answers.forEach((answer) => {
+        answer.innerText = currentQuestion[answer.dataset["answer"]];
+    });
+    //getNewQuestion();
+};
+
+startGame();
