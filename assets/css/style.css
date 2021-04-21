@@ -53,3 +53,12 @@
     transition: transform 200ms;
 }
 
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightpink;
+    transform: translateX(0.2rem);
+    transition: 250ms;
+}

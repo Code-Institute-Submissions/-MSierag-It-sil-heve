@@ -235,9 +235,12 @@ let questionCounter;
 let score;
 const MAX_QUESTIONS = 3;
 
+let acceptingAnswers;
+
 startGame = () => {
     questionCounter = 0;
     score = 0;
+    acceptingAnswers = true;
     console.log(questions);
 
     availableQuestions = getRandomQuestions(questions, MAX_QUESTIONS);
@@ -262,19 +265,46 @@ const getNewQuestion = () => {
     if(availableQuestions.length === 0){
         alert("End of game");
         return;
-    }
+    };
 
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
     currentQuestion = availableQuestions[0];
-    console.log(currentQuestion);
     question.innerText = currentQuestion.question;
 
     answers.forEach((answer) => {
         answer.innerText = currentQuestion[answer.dataset["answer"]];
     });
-    //getNewQuestion();
+
+    answers.forEach((answer) => {
+      answer.addEventListener("click", (e) => {
+        if (!acceptingAnswers) {
+          console.log("not accepting answers");
+          return;
+        }
+        acceptingAnswers = false;
+        const clickedAnswer = e.target;
+        const answerLetter = clickedAnswer.dataset["answer"];
+        
+        let classToApply = "incorrect";
+
+        if (answerLetter === currentQuestion.answer) {
+          score++;
+          scoreText.innerText = score;
+          classToApply = "correct";
+        }
+
+        clickedAnswer.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+          clickedAnswer.parentElement.classList.remove(classToApply); 
+          getNewQuestion();
+          acceptingAnswers = true;
+        }, 1000);
+      });
+    });
+    availableQuestions.shift();
 };
 
 startGame();
