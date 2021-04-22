@@ -263,7 +263,7 @@ const getRandomQuestions = (arr, n) => {
 const getNewQuestion = () => {
   if (availableQuestions.length === 0) {
     localStorage.setItem('mostRecentScore', score);
-    return window.location.assign('./end.html');
+    return window.location.assign('./endgame.html');
   };
 
   questionCounter++;
