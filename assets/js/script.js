@@ -232,7 +232,7 @@ const scoreText = document.getElementById("score");
 
 let questionCounter;
 let score;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 
 let acceptingAnswers;
 

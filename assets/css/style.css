@@ -1,3 +1,7 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+
 /*Styles used across various pages*/
 
 body {
@@ -29,7 +33,7 @@ body {
 #indexbg {
     margin: 0;
     padding: 0;
-    background: url('../images/skaters-icarus.jpg');
+    background: url('../images/skaters-bg.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -144,7 +148,7 @@ input {
 }
 
 input::placeholder {
-    color: #aaa;
+    color: #41464b;
 }
 
 #username {
