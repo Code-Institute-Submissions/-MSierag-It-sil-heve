@@ -4,7 +4,7 @@ body {
     color: #41464b;
 }
 
-.fa-question, .fa-play, .fa-trophy, .fa-home {
+.fa-question, .fa-play, .fa-trophy, .fa-home, .fa-redo, .fa-save {
     margin-left: 1rem;
     color: #41464b;
 }
@@ -114,10 +114,19 @@ body {
 }
 
 /*Endgame.html*/
+
+#endgamebg {
+    background-color: #a1b8d6;
+}
+
 #end {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+p {
+    font-size: inherit;
 }
 
 .end-form-container {
@@ -147,18 +156,13 @@ input::placeholder {
 }
 
 #end-text {
-    font-size: 2.4rem;
-    color: black;
+    font-size: 2.0rem;
+    color: #41464b;
     text-align: center;
 }
 
 #saveScore {
     border: none;    
-}
-
-.fa-home {
-    margin-left: 1rem;
-    font-size: 2.5rem;
 }
 
 /*Scoreboard.html*/
