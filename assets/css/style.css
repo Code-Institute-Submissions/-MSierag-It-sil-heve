@@ -1,3 +1,10 @@
+/*Styles used across various pages*/
+
+.fa-question, .fa-play, .fa-trophy {
+    margin-left: 1rem;
+    color: #41464b;
+}
+
 
 /*Index.html*/
 #indexbg {
@@ -14,6 +21,12 @@
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.standard:hover {
+    transform: scale(0.3rem);
+    color: #3b4044;
+    font-weight: bold;
 }
 
 /*Game.html*/
