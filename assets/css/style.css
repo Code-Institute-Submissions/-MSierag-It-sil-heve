@@ -1,4 +1,21 @@
 
+/*Index.html*/
+#indexbg {
+    margin: 0;
+    padding: 0;
+    background: url('../images/skaters-icarus.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#lead {
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 /*Game.html*/
 #gamebg {
     background-color: lightgray;
