@@ -30,6 +30,15 @@
     font-weight: bold;
 }
 
+#btn-modal {
+    border: transparent;
+}
+
+.modal-content {
+    background-color: #92accf;
+    color: #41464b;
+}
+
 /*Game.html*/
 #gamebg {
     background-color: lightgray;
