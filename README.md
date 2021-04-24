@@ -169,16 +169,27 @@ Testing resulted in the following [score](assets/images/testing/lighthouse/light
 
 ### Responsiveness testing
 
-To test the responsiveness of the site [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://responsivedesignchecker.com/) were used.
+To test the responsiveness of the site [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://responsivedesignchecker.com/) were used. 
+Screenshots for the home page and the game page are included. The end game and scoreboard pages with their minimal content followed the same line as the other two pages.
 
-[Desktop 1920x1080](./assets/images/testing/responsiveness/desktop1920x1080.JPG)
-[Notebook 1366x768](./assets/images/testing/responsiveness/notebook1366x768.JPG)
-[Tablet 800x1280](./assets/images/testing/responsiveness/tablet800x1280.JPG)
-[Tablet 768x1024](./assets/images/testing/responsiveness/tablet768x1024.JPG)
-[Smartphone 414x736](./assets/images/testing/responsiveness/smartphone414x736.JPG)
-[Smartphone 375x667](./assets/images/testing/responsiveness/smartphone375x667.JPG)
+#### Home page
+[Desktop 1920x1080](assets/images/testing/responsiveness/desktop1920x1080.png)
+[Notebook 1366x768](assets/images/testing/responsiveness/notebook1366x768.png)
+[Tablet 800x1280](assets/images/testing/responsiveness/tablet800x1280.png)
+[Tablet 768x1024](assets/images/testing/responsiveness/tablet768x1024.png)
+[Smartphone 414x736](assets/images/testing/responsiveness/smartphone414x736.png)
+[Smartphone 320x568](assets/images/testing/responsiveness/smartphone320x568.png)
 
-On screens below 360px the content of the cards becomes misaligned and text is lost from view. [Screensizemap](https://screensizemap.com/) was consulted to determine the popularity of this screen size.
+#### Game page
+[Desktop 1920x1080](assets/images/testing/responsiveness/game1920x1080.png)
+[Notebook 1366x768](assets/images/testing/responsiveness/game1366x768.png)
+[Tablet 800x1280](assets/images/testing/responsiveness/game800x1280.png)
+[Tablet 768x1024](assets/images/testing/responsiveness/game768x1024.png)
+[Smartphone 414x736](assets/images/testing/responsiveness/game414x736.png)
+[Smartphone 320x568](assets/images/testing/responsiveness/game320x568.png)
+
+#### Conclusions
+Only on the smallest smartphone screen (320x480) did the background image interfere with the text on the buttons.  [Screensizemap](https://screensizemap.com/) was consulted to determine the popularity of this screen size.
 The popularity listed for this type of screen hovers around 2% and seems to concern smartphones which can be considered at the end of their lifecycle. 
 It is listed as a known issue.   
 
