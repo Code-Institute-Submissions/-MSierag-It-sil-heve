@@ -6,13 +6,19 @@
 
 body {
     color: #41464b;
+    font-family: 'Raleway', sans-serif;
 }
 
 .bodybg {
     background-color: #a1b8d6;
 }
 
-.fa-question, .fa-play, .fa-trophy, .fa-home, .fa-redo, .fa-save {
+.fa-question, 
+.fa-play, 
+.fa-trophy, 
+.fa-home, 
+.fa-redo, 
+.fa-save {
     margin-left: 1rem;
     color: #41464b;
 }
@@ -23,7 +29,8 @@ body {
     font-size: x-large;
 }
 
-.btn-standard:hover {
+.btn-standard:hover, 
+.btn-standard:focus-visible {
     transform: scale(0.3rem);
     color: #3b4044;
     font-weight: bold;
@@ -100,7 +107,8 @@ body {
     margin: 0;
 }
 
-.answer-container:hover {
+.answer-container:hover,
+.answer-container:focus-visible {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(58, 124, 207, 1);
 
