@@ -150,7 +150,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
     The warning referred to the fact that the W3C CSS Validator cannot check linked/imported files in direct input. Style.css has an import link for the Google Font of 'Raleway' and the link to the background image for the home page. This seems to be a minor issue inherent to the way the validator is set up, but as it doesn't impact the function of the site I've decided to leave it as is. - [Results](assets/images/testing/validation/cssafter.png)  
 
 -  [JSHint](https://jshint.com/)     
-    The linter gave no fatal errors, only warnings. Most of these pertained to the fact that the syntax used is only available in ES6 and the code was left as it is. 
+    The linter gave no fatal errors, only warnings. Most of these pertained to the fact that the syntax used is only available in ES6. As the code also doesn't produce any errors in ChromeDevTools I desiced to leave the code as it is. 
     Script.js - [Results](assets/images/testing/validation/scriptjs.png) 
     Endgame.js - [Results](assets/images/testing/validation/endgamejs.png)
     Scoreboard.js - [Results](assets/images/testing/validation/scoreboardjs.png) 
@@ -159,19 +159,13 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
 
 I used Google Lighthouse to audit the site's performance, accessibility, use of best practices and search engine optimization.
 
-Initial testing resulted in the following [score](./assets/images/testing/lighthouse/lighthouse.jpg):
--   Performance: 93%
--   Accessibility: 97%
--   Best Practices: 93%
+Testing resulted in the following [score](assets/images/testing/lighthouse/lighthouse.png):
+-   Performance: 98%
+-   Accessibility: 100%
+-   Best Practices: 100%
 -   SEO: 100%
 
-**Performance** - Most of the suggested improvements involved removing or altering CSS and JavaScript elements which are included in Bootstrap. 
-I decided against tampering with this. 
-
-**Accessibility** - The contrast of the disclaimer in the footer in relation to the background was deemed to be low. Altering the colour would significantly change the overall look of the footer.
-As the information is not essential to understanding the site, the existing colour was left in place.
-
-**Best Practices** - The social media links in the footer were deemed to be unsafe. To improve this rel="noopener" was added to the links.
+**Performance** - Two suggested improvements involved removing or altering CSS and JavaScript elements which are included in Bootstrap. I decided against tampering with this. 
 
 ### Responsiveness testing
 
