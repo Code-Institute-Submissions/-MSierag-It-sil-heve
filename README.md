@@ -5,7 +5,7 @@
 ## Purpose of the website
 
 This is a website for a simple quiz game about the Dutch Elfstedentocht, a long distance skating event on natural ice. Every time there is a prolonged period of frost, Dutch people anxiously await the decision whether this will be the year there will finally be another Elfstedentocht. The last event took place in early 1997. This year (2021) we came close, but due to the ongoing pandemic it was regretfully decided not to hold the race (which didn't stop individual citizens from skating the route on their own though). 
-The purpose of this website is to provide the skating community with a quiz game as entertainment while they wait for the next Elfstedentocht. It is intended to bring the event to the attention of people outside the Dutch skating community. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
+The purpose of this website is to provide the skating community with a quiz game as entertainment while they wait for the next Elfstedentocht. It is intended to bring the event to the attention of people outside the Dutch skating community. The name It sil heve was chosen because the words are synonymous with the Elfstedentoch anticipation. They are Frisian and mean "It will happen", they were used to announce the 1985 event and are also displayed on the Elfstedentoch monument. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 ## User Experience (UX)
 
@@ -35,15 +35,17 @@ The purpose of this website is to provide the skating community with a quiz game
 
 *   ### Wireframes
 
-    -   Home page wireframe - [View](./assets/images/wireframes/rtbhome.png)
+    -   Home page wireframe - [View](./assets/images/wireframes/itsilhevehome.png)
 
-    -   Game page wireframe - [View](./assets/images/wireframes/rtbroutes.png)
+    -   Game page wireframe - [View](./assets/images/wireframes/itsilhevegame.png)
 
-    -   High scores page wireframe - [View](./assets/images/wireframes/rtbcontact.png)
+    -   End of game page wireframe - [View](./assets/images/wireframes/itsilheveendgame.png)
 
-    -   Mobile wireframes - [View](./assets/images/wireframes/rtbsmartphone.png)
+    -   Scoreboard page wireframe - [View](./assets/images/wireframes/itsilhevescoreboard.png)
 
-    -   Tablet wireframes - [View](./assets/images/wireframes/rtbtablet.png)
+    -   Mobile wireframes - [View](./assets/images/wireframes/itsilhevesmartphone.png)
+
+    -   Tablet wireframes - [View](./assets/images/wireframes/itsilhevetablet.png)
 
 ## Features
 
