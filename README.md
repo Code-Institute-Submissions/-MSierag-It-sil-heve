@@ -4,7 +4,8 @@
 
 ## Purpose of the website
 
-This is the website for the fictional organisation Round the Bend. The purpose of this website is to provide the biker community with a location to share gps routes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
+This is a website for a simple quiz game about the Dutch Elfstedentocht, a long distance skating event on natural ice. Every time there is a prolonged period of frost, Dutch people anxiously await the decision whether this will be the year there will finally be another Elfstedentocht. The last event took place in early 1997. This year (2021) we came close, but due to the ongoing pandemic it was regretfully decided not to hold the race (which didn't stop individual citizens from skating the route on their own though). 
+The purpose of this website is to provide the skating community with a quiz game as entertainment while they wait for the next Elfstedentocht. It is intended to bring the event to the attention of people outside the Dutch skating community. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 ## User Experience (UX)
 
@@ -13,20 +14,24 @@ This is the website for the fictional organisation Round the Bend. The purpose o
     -   #### Visiting User Goals
 
         1. As a visiting user, I want to easily understand the main purpose of the site. 
-        2. As a visiting user, I want to be able to easily navigate throughout the site to find content.
-        3. As a visiting user, I want to .
-        4. As a visiting user, I want to .
-        5. As a visiting user, I want to .
+        2. As a visiting user, I want to be able to easily navigate throughout the site.
+        3. As a visiting user, I want to test my knowledge of the topic.
+        4. As a visiting user, I want to know my position in the game.
+        5. As a visiting user, I want to compete.
         
 -   ### Design
     -   #### Colour Scheme
-        -   There are five colours used throughout the site, the first three are main colours and the remaining two are used for accents.
-                ![Coolors rendering of colour scheme](./assets/images/rtbcolourscheme.png)
-            The colours #0F306E, #5982DE and F80905 were chosen as they approach the palette of the decals on the 1988 Honda Transalp 600, an iconic enduro motorcycle. The colour #D4AF37 was chosen as an accent colour as it resembles the colour of many motorcycle brake calipers. Finally, #D8F4FB was added as a transition colour to soften the vibrant palette where needed. 
+        -   There are eight colours used throughout the site, the first two are main colours and the remaining six are used for accents.
+        ##### Main colours
+                ![Coolors rendering of main colour scheme](./assets/images/maincolours.png)
+            The colours #41464b and #a1b8d6 were chosen as they approach the palette of the background image on the index.html. The colours are cool to approach the colours seen in the landscape on a Dutch winter day, but with enough gray to not become too harsh when viewed on a screen.
+        ##### Accent colours
+               ![Coolors rendering of main colour scheme](./assets/images/effectcolours.png)
+               The colours #3b4044, #3accf, #6e91bf, #90ee90 and #ffb6c1 are accent colours. The first two are used in hover effects and box-shadows. #6e91bf is used on the game.html page to better set apart the answer-prefix. The last two colours are also used on the game.html to indicate whether the correct or incorrect answer has been selected. 
     -   #### Typography
-        -   The Domine font is the main font used throughout the whole website with Fira Sans, Raleway and ultimately Sans Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Domine is a serif font which was designed for body text on the web and is friendly on the eyes.
+        -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Raleway was chosen as it is an elegant sans-serif typeface family.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It puts the user in the position of a biker in the driver's seat. The three images used in the Explore, Connect and Inspire sections of the Home page capture the gist of the text. The image at the top of the Routes page represents the sense of adventure and freedom typically associated with riding a motorcycle. 
+        -   The large background image on the index.html is representative of long-distance skating on natural ice in the Netherlands: large, open space with a few people. It provides a very serene scene, which was used as the guiding sense for the rest of the project. 
 
 *   ### Wireframes
 
@@ -44,23 +49,11 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 ### Existing features
 
-#### Features across all pages
-
--   Navigation bar which remains fixed at the top of the page. It makes for easy and consistent navigation throughout the site. The current page is highlighted dark.
-
--   Footer which appears on every page and stays at the bottom. The footer contains:
-
-       - the statement that this website is for educational purposes only.
-
-       - newsletter sign-up button. The colours on the button are inverted when the user hovers over it. When selected, a modal pop-up appears allowing the user to submit their email address.
-
-       - social media icons. When the user hovers over an icon it appears darker against the background. When selected the icons provide a link to the relevant social medium in a separate page.
-
 #### Page specific features
 
 ##### Home page
 
--   Hero image which virtually puts the user in the driver's seat with a view across the handlebars. 
+-   Background image which conveys the atmosphere of skating on natural ice in the Netherlands. 
 
 -   Callout on the hero image which informs the user of the purpose of the site through the slogan "Routes for bikers, by bikers".
 
@@ -68,7 +61,7 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 -   Content section containing three cards with statement headings and minimal text aimed to elicit an emotional response. 
 
--   Call to action buttons which reiterate the statement headings and when selected land the user on the appropriate page on the website.  
+-   Call to action buttons which when selected land the user on the appropriate page on the website.  
 
 ##### Game page
 
@@ -78,14 +71,15 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 
 -   Each route card contains a call to action button to download the gpx file. When selected the download opens on a separate tab. 
 
-##### High scores page
+##### End of game page
+
+##### Scoreboard page
 
 -   Contact Us column contains a form which allows the user to submit their questions or remarks to the organisation. 
 
 ### Future features
 
--   A login procedure to register users. 
--   As more routes and destinations are added, a filter and search function will be added on the Routes page. 
+-   A Dutch version of the site so . 
 -   Small map of the route to be displayed above the heading of the route. 
 -   Indication of "New" to appear next to routes which were added since a registered user's last visit. Unregistered users/visitors would not see this indication.
 
@@ -103,9 +97,9 @@ This is the website for the fictional organisation Round the Bend. The purpose o
 1. [Bootstrap 5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Domine', 'Raleway' and 'Fira Sans' fonts into the style.css file which are used throughout the project.
+    - Google fonts was used to import the 'Raleway' font into the style.css file which is used throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used to add the social media icons to the footer.
+    - Font Awesome was used to add the icons to the navigation and modal buttons used throughout the project.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
@@ -116,8 +110,6 @@ This is the website for the fictional organisation Round the Bend. The purpose o
     - Balsamiq was used to create the wireframes during the design process.
 1. [TinyJPG](https://tinyjpg.com/) 
     - TinyJPG was used to reduce image file sizes.
-1. [Croppola](https://croppola.com)
-    - Croppola was used to crop the images for the "Explore", "Connect" and "Inspire" section on the "Home" page.
 1. [Coolors](https://coolors.co/)
     - Coolors was used to generate the palette used throughout the site.
 
