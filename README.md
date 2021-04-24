@@ -5,6 +5,7 @@
 ## Purpose of the website
 
 This is a website for a simple quiz game about the Dutch Elfstedentocht, a long distance skating event on natural ice. Every time there is a prolonged period of frost, Dutch people anxiously await the decision whether this will be the year there will finally be another Elfstedentocht. The last event took place in early 1997. This year (2021) we came close, but due to the ongoing pandemic it was regretfully decided not to hold the race (which didn't stop individual citizens from skating the route on their own though). 
+
 The purpose of this website is to provide the skating community with a quiz game as entertainment while they wait for the next Elfstedentocht. It is intended to bring the event to the attention of people outside the Dutch skating community. The name It sil heve was chosen because the words are synonymous with the Elfstedentoch anticipation. They are Frisian and mean "It will happen", they were used to announce the 1985 event and are also displayed on the Elfstedentoch monument. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 ## User Experience (UX)
@@ -15,9 +16,8 @@ The purpose of this website is to provide the skating community with a quiz game
 
         1. As a visiting user, I want to easily understand the main purpose of the site. 
         2. As a visiting user, I want to be able to easily navigate throughout the site.
-        3. As a visiting user, I want to test my knowledge of the topic.
-        4. As a visiting user, I want to know my position in the game.
-        5. As a visiting user, I want to compete.
+        3. As a visiting user, I want to know my position in the game.
+        4. As a visiting user, I want to compete.
         
 -   ### Design
     -   #### Colour Scheme
@@ -199,54 +199,33 @@ It is listed as a known issue.
 
     1. As a visiting user, I want to easily understand the main purpose of the site.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. [View](./assets/images/testing/userstories/navbar.png)
-        2. Underneath there is a Hero Image with text stating the purpose of the site and a scrolling wheel to invite the user to scroll down. [View](./assets/images/testing/userstories/home.png)
-        3. The user has two options, click the link to the page of their choice in the navigation bar or scroll down.
-        4. Scrolling down leads the user to three sections each with a call to action button to lead the user to the respective Routes, Contact or Uploads pages. [View](./assets/images/testing/userstories/homecards.png)
-
-    2. As a visiting user, I want to be able to easily navigate throughout the site to find content.
-
-        1. The navigation bar with clearly marked links to the respective pages is the same across all pages. [View](./assets/images/testing/userstories/navbar.png)
-        2. To return to the Home page, the user can either click on the link "Home" in the navigation bar or on the "Round the Bend" logo in the top left-hand area of the navigation bar.
+        1. Upon entering the site, users are automatically greeted with the clean and easily readable page which contains the title heading "It sil heve" and underneath that the subheading "Elfstedentocht quiz" with three buttons to go to the page of their choice. [View](assets/images/testing/userstories/btnhowtoplay.png)
+        2. Underneath the titles are three buttons labelled "How to play?", "Let's play" and "Scoreboard". 
+        3. Text has intentionally been kept to an absolute minimum.
         
-    3. As a visiting user, I want to locate their social media links to see their following on social media to determine how trusted and known they are.
-      
-        1. The user can scroll to the bottom of any page on the site to locate the social media links in the right-hand section of the footer. [View](./assets/images/testing/userstories/footer.png)
-        2. When clicked, the social media links will open up in a new tab to ensure the user can easily get back to the website. [View](./assets/images/testing/userstories/smopentabe.png)
-               
-    4. As a visiting user, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a visiting user, I want to be able to easily navigate throughout the site.
 
-        1. The user can reach the "Contact" page by either selecting the link in the navigation bar or the call to action button in the "Connect" section on the "Home" page. [View](./assets/images/testing/userstories/contacthome.png)
-        2. On the "Contact" page the user can fill out the form on the page. [View](./assets/images/testing/userstories/contact.png)
-        3. Alternatively, the footer contains links to the organisation's social media presence. [View](./assets/images/testing/userstories/socialmedia.png)
-        4. When clicked, the social media links will open up in a new tab to ensure the user can easily get back to the website. [View](./assets/images/testing/userstories/smopentabe.png)
-
-    5. As a visiting user, I want to be able to view the details of the routes.
-
-        1. The user can reach the "Routes" page by either selecting the link in the navigation bar or the call to action button in the "Explore" section on the "Home" page.[View](./assets/images/testing/userstories/routeshome.png)
-        2. The routes are listed on the "Routes" page by country of destination.[View](./assets/images/testing/userstories/routes.png)
-        3. A short description of the route is provided with each route.
-        4. Additional facts listed for each route are total length in km, starting location, final destination. 
-
-    6. As a visiting user, I want to download the gps file for the route of my choice.
+        1. The buttons on the home page provide the user with clearly marked links to the respective pages. These buttons are the same across all pages. [View](assets/images/testing/userstories/btnletsplay.png)
+        2. The home button is located at the bottom of every screen [View](assets/images/testing/userstories/homebtn.png), except of course the home page itself.
+        3. The game page automatically opens into the end of game page upon completion of the game [View](assets/images/testing/userstories/endgame.png)
+        4. After submitting a username and saving their score, the scoreboard page also loads automatically [View](assets/images/testing/userstories/endgame2.png) and [View](assets/images/testing/userstories/scoreboard.png)
+                      
+    4. As a visiting user, I want to know my position in the game.
         
-        1. The user can reach the "Routes" page by either selecting the link in the navigation bar or the call to action button in the "Explore" section on the "Home" page.[View](./assets/images/testing/userstories/routeshome.png)
-        2. The routes are listed on the "Routes" page by country of destination. [View](./assets/images/testing/userstories/routes.png)
-        3. Beneath the details and description of each individual route there is a button with the download symbol marked "GPX file", which is the file type used by SatNav's. [View](./assets/images/testing/userstories/dwnldbtn.png)
-        4. When clicked, the download briefly opens in a new tab and closes as the download completes at the bottom of the screen. [View](./assets/images/testing/userstories/dwnldcomplete.png)
-               
-    7. As a visiting user, I want to be able to submit routes.
+        1. On the game page the user is presented with the question counter in the top left hand corner. [View](assets/images/testing/userstories/play.png)
+        2. The counter shows what question out of ten question in a game the user is currently playing.
+        3. A new question is automatically loaded one second after submitting the answer to the previous question.
+        4. An easily distinguishable "Home" button sits at the bottom of the screen should the user wish to abort the game and return to the home page [View](assets/images/testing/userstories/homebtn.png)
+        5. At the end of the game, the end of game page is automatically opened and the user is urged to submit their name to be added to the scoreboard. [View](assets/images/testing/userstories/endgame.png) 
+                   
+    5. As a visiting user, I want to compete.
         
-        1. The user can reach the "Uploads" page by selecting the link in the navigation bar or the call to action button in the "Inspire" section on the "Home" page. [View](./assets/images/testing/userstories/routeshome.png)
-        2. Here the user is provided with a form to submit their own route.[View](./assets/images/testing/userstories/routes.png)  
-        3. An easily distinguishable "Submit" button at the bottom of the form.  
-           
-    8. As a visiting user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        
-        1. At the bottom of every page there is a footer which is the same throughout all pages.[View](./assets/images/testing/userstories/footer.png)
-        2. In the middle of the footer the user sees a button marked "Subscribe to our Newsletter".[View](./assets/images/testing/userstories/nwsltrbtnselected.png)
-        3. Upon clicking the button a modal form appears where the user is prompted to Enter their email address.[View](./assets/images/testing/userstories/newslettermodal.png)
-        4. An easily distinguishable "Submit" button at the bottom of the modal form.  
+        1. On the home page, the user is first presented with a button labelled "How to play?" [View](assets/images/testing/userstories/btnhowtoplay.png) which when clicked opens a modal with instructions [View](assets/images/testing/userstories/modal.png)        
+        2. On the home page, the user is presented with a button labelled "Let's Play" which when clicked opens the game page [View](assets/images/testing/userstories/btnletsplay.png)
+        3. The game page loads questions automatically  [View](assets/images/testing/userstories/play.png)
+        4. Correctly answered questions are noted in this manner [View](assets/images/testing/userstories/correct.png) while incorrectly answered questions are noted in this manner [View](assets/images/testing/userstories/incorrect.png)
+        4. At the end of the game the user is prompted to enter their name and submit their score.
+        5. Alternatively, the user can view the scoreboard or play again to improve their score.  
 
 ### Known Issues
 
