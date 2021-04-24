@@ -1,3 +1,5 @@
+//Array of available questions
+
 let questions = [{
     "id": 1,
     "question": "Who organises the Elfstedentocht?",
@@ -225,6 +227,7 @@ let questions = [{
   },
 ];
 
+//Constants
 const question = document.getElementById("question");
 const answers = Array.from(document.getElementsByClassName("answer-text"));
 const questionCounterText = document.getElementById("counter");
@@ -232,18 +235,18 @@ const scoreText = document.getElementById("score");
 
 let questionCounter;
 let score;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 10;
 
 let acceptingAnswers;
+
+//Functions
 
 startGame = () => {
   questionCounter = 0;
   score = 0;
   acceptingAnswers = true;
-  console.log(questions);
-
+  
   availableQuestions = getRandomQuestions(questions, MAX_QUESTIONS);
-  console.log(availableQuestions);
   getNewQuestion();
 };
 
@@ -251,7 +254,7 @@ const getRandomQuestions = (arr, n) => {
   let len = arr.length;
   if (n > len) {
     throw new RangeError(
-      "getRandomQuestions: more elements taken than available"
+      "More questions selected than are available"
     );
   };
 
@@ -279,7 +282,7 @@ const getNewQuestion = () => {
   answers.forEach((answer) => {
     answer.addEventListener("click", (e) => {
       if (!acceptingAnswers) {
-        console.log("not accepting answers");
+        console.log("Currently not accepting answers");
         return;
       }
       acceptingAnswers = false;
@@ -296,6 +299,7 @@ const getNewQuestion = () => {
 
       clickedAnswer.parentElement.classList.add(classToApply);
 
+      //Function to automatically set up a new question after 1sec
       setTimeout(() => {
         clickedAnswer.parentElement.classList.remove(classToApply);
         getNewQuestion();

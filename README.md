@@ -133,7 +133,7 @@ The purpose of this website is to provide the skating community with a quiz game
 
 ### Validation 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
     - Home - [Result](assets/images/testing/validation/homehtml.png)
@@ -149,7 +149,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     The error referred to the fact that for the hover effect on the buttons transform: scale(0.3rem) was used, rem is not allowed as a value for transform. Correcting this to transform: scale(1.3) resolved the error.
     The warning referred to the fact that the W3C CSS Validator cannot check linked/imported files in direct input. Style.css has an import link for the Google Font of 'Raleway' and the link to the background image for the home page. This seems to be a minor issue inherent to the way the validator is set up, but as it doesn't impact the function of the site I've decided to leave it as is. - [Results](assets/images/testing/validation/cssafter.png)  
 
--       
+-  [JSHint](https://jshint.com/)     
+    The linter gave no fatal errors, only warnings. Most of these pertained to the fact that the syntax used is only available in ES6 and the code was left as it is. 
+    Script.js - [Results](assets/images/testing/validation/scriptjs.png) 
+    Endgame.js - [Results](assets/images/testing/validation/endgamejs.png)
+    Scoreboard.js - [Results](assets/images/testing/validation/scoreboardjs.png) 
 
 ### Google Lighthouse
 
