@@ -136,17 +136,18 @@ The purpose of this website is to provide the skating community with a quiz game
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-    - Index - [Result](./assets/images/testing/validation/indexbefore.JPG)
-    - Routes - [Result](./assets/images/testing/validation/routes.JPG)
-    - Contact - [Result](./assets/images/testing/validation/contact.JPG)
-    - Uploads - [Result](./assets/images/testing/validation/uploads.JPG)
+    - Home - [Result](./assets/images/testing/validation/homehtml.png)
+    - Game - [Result](./assets/images/testing/validation/gamehtml.png)
+    - Endgame - [Result](./assets/images/testing/validation/endgamehtml.png)
+    - Scoreboard - [Result](./assets/images/testing/validation/scoreboard.png)
 
-    Only the index.html showed a warning. After removing senseless section tags around the Hero image, the warnings have disappeared.
-    - Index - [Result](./assets/images/testing/validation/indexafter.JPG)
-
+    No errors or warnings were given for the HTML code.
+    
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
     No errors or warnings were given for the CSS code - [Results](./assets/images/testing/validation/css.JPG)
+
+-       
 
 ### Google Lighthouse
 
