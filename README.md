@@ -55,33 +55,47 @@ The purpose of this website is to provide the skating community with a quiz game
 
 -   Background image which conveys the atmosphere of skating on natural ice in the Netherlands. 
 
--   Callout on the hero image which informs the user of the purpose of the site through the slogan "Routes for bikers, by bikers".
+-   Name of the game and the topic are clearly visible. Text is intentionally kept to a minimum so as not to detract from the serene atmosphere of the background image.
 
--   Scrolling mouse wheel animation to direct the user to scroll down to the content initially hidden from view by the hero image.
+-   Call to action button labelled How to Play which when clicked opens a modal with instructions to the game.
 
--   Content section containing three cards with statement headings and minimal text aimed to elicit an emotional response. 
+-   Call to action button labelled Let's Play which when clicked opens the game page. 
 
--   Call to action buttons which when selected land the user on the appropriate page on the website.  
+-   Call to action button labelled Scoreboard which when clicked opens the scoreboard page.  
 
 ##### Game page
 
--   Heading image which conveys the sense of adventure and freedom typically associated with riding a motorcycle. The image is deliberately not full-width nor full view height so as not to obscure the content section or require a scroll invitation.
+-   Top left of the screen holds a section labelled Question which shows the number question the current question is out of the maximum of ten questions in every game.
 
--   Content section consisting of cards with the details of the routes on offer, arranged by country.  
+-   Top right of the screen holds a section labelled Score which shows the number of points accumulated so far in the game.  
 
--   Each route card contains a call to action button to download the gpx file. When selected the download opens on a separate tab. 
+-   Middle section holds the question and a group of cards underneath which display the four possible answers to each question. The cards serve as buttons and have a hover effect. When selected the normally white background of the card changes colour to indicate whether the selection was correct or not.
+
+-   Below the answers is a call to action button labelled Home which when clicked opens the home page.
 
 ##### End of game page
 
+-   Background image which conveys the atmosphere of skating on natural ice in the Netherlands. 
+
+-   Name of the game and the topic are clearly visible. Text is intentionally kept to a minimum so as not to detract from the serene atmosphere of the background image.
+
+-   Call to action button labelled Save which is disabled until a character is typed into the input field for the name above it. Then, when clicked, the scoreboard page is opened now displaying the saved score.
+
+-   Call to action button labelled Play again which when clicked opens the game page. 
+
+-   Call to action button labelled Home at the bottom of the scoreboard which when clicked opens the home page.
+
 ##### Scoreboard page
 
--   Contact Us column contains a form which allows the user to submit their questions or remarks to the organisation. 
+-   Scoreboard is shown with the header scoreboard and a maximum of 5 scores to be displayed.
+
+-   Call to action button labelled Home at the bottom of the scoreboard which when clicked opens the home page. 
 
 ### Future features
 
--   A Dutch version of the site so . 
--   Small map of the route to be displayed above the heading of the route. 
--   Indication of "New" to appear next to routes which were added since a registered user's last visit. Unregistered users/visitors would not see this indication.
+-   A Dutch version of the site so it will serve the Dutch general public as well. This was not done due to time constraints. 
+-   A background information section which will give some instant information without having to search for it elsewhere online. 
+-   More questions to create a greater variation in the quiz.
 
 ## Technologies Used
 
