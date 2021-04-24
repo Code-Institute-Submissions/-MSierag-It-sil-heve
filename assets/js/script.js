@@ -1,3 +1,5 @@
+//Code taken and loosely adapted from https://www.youtube.com/watch?v=MxrGPP4F8Sc tutorial
+
 //Array of available questions
 
 let questions = [{
