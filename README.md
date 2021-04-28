@@ -4,9 +4,9 @@
 
 ## Purpose of the website
 
-This is a website for a simple quiz game about the Dutch Elfstedentocht, a long distance skating event on natural ice. Every time there is a prolonged period of frost, Dutch people anxiously await the decision whether this will be the year there will finally be another Elfstedentocht. The last event took place in early 1997. This year (2021) we came close, but due to the ongoing pandemic it was regretfully decided not to hold the race (which didn't stop individual citizens from skating the route on their own though). 
+This is a website for a simple quiz game about the Dutch Elfstedentocht (transl. "Eleven Cities Tour"), a long distance skating event on natural ice. Every time there is a prolonged period of frost, Dutch people anxiously await the decision whether this will be the year there will finally be another Elfstedentocht. The last event took place in early 1997. This year (2021) we came close, but due to the ongoing pandemic it was regretfully decided not to hold the race (which didn't stop individual citizens from skating the route on their own though). 
 
-The purpose of this website is to provide the skating community with a quiz game as entertainment while they wait for the next Elfstedentocht. It is intended to bring the event to the attention of people outside the Dutch skating community. The name It sil heve was chosen because the words are synonymous with the Elfstedentoch anticipation. They are Frisian and mean "It will happen", they were used to announce the 1985 event and are also displayed on the Elfstedentoch monument. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
+The purpose of this website is to provide the skating community with a quiz game as entertainment while they wait for the next Elfstedentocht. It is intended to bring the event to the attention of people outside the Dutch skating community. The name "It sil heve" was chosen because the words are synonymous with the Elfstedentocht anticipation. They are Frisian and mean "It will happen", they were used to announce the 1985 event and are also displayed on the Elfstedentoch monument. The website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 ## User Experience (UX)
 
@@ -23,10 +23,10 @@ The purpose of this website is to provide the skating community with a quiz game
     -   #### Colour Scheme
         -   There are eight colours used throughout the site, the first two are main colours and the remaining six are used for accents.
         ##### Main colours
-                [View](./assets/images/maincolours.png)
+                ![Coolors rendering of main colourscheme](./assets/images/maincolours.png)
             The colours #41464b and #a1b8d6 were chosen as they approach the palette of the background image on the index.html. The colours are cool to approach the colours seen in the landscape on a Dutch winter day, but with enough gray to not become too harsh when viewed on a screen.
         ##### Accent colours
-               [View](./assets/images/effectcolours.png)
+               ![Coolors rendering of effect colourscheme](./assets/images/effectcolours.png)
                The colours #3b4044, #3accf, #6e91bf, #90ee90 and #ffb6c1 are accent colours. The first two are used in hover effects and box-shadows. #6e91bf is used on the game.html page to better set apart the answer-prefix. The last two colours are also used on the game.html to indicate whether the correct or incorrect answer has been selected. 
     -   #### Typography
         -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Raleway was chosen as it is an elegant sans-serif typeface family.
@@ -59,39 +59,41 @@ The purpose of this website is to provide the skating community with a quiz game
 
 -   Name of the game and the topic are clearly visible. Text is intentionally kept to a minimum so as not to detract from the serene atmosphere of the background image.
 
--   Call to action button labelled How to Play which when clicked opens a modal with instructions to the game.
+-   Call to action button labelled "How to Play" which when clicked opens a modal with instructions to the game.
 
--   Call to action button labelled Let's Play which when clicked opens the game page. 
+-   Call to action button labelled "Let's Play" which when clicked opens the game page. 
 
--   Call to action button labelled Scoreboard which when clicked opens the scoreboard page.  
+-   Call to action button labelled "Scoreboard" which when clicked opens the scoreboard page.  
 
 ##### Game page
 
--   Top left of the screen holds a section labelled Question which shows the number question the current question is out of the maximum of ten questions in every game.
+-   Top left of the screen holds a section labelled "Question" which shows the number question the current question is out of the maximum of ten questions in every game.
 
--   Top right of the screen holds a section labelled Score which shows the number of points accumulated so far in the game.  
+-   Top right of the screen holds a section labelled "Score" which shows the number of points accumulated in the game so far.  
 
 -   Middle section holds the question and a group of cards underneath which display the four possible answers to each question. The cards serve as buttons and have a hover effect. When selected the normally white background of the card changes colour to indicate whether the selection was correct or not.
 
--   Below the answers is a call to action button labelled Home which when clicked opens the home page.
+-   Below the answers is a call to action button labelled "Home" which when clicked opens the home page.
 
 ##### End of game page
 
--   Background image which conveys the atmosphere of skating on natural ice in the Netherlands. 
+-   Page loads automatically after 10 questions have been answered. 
 
--   Name of the game and the topic are clearly visible. Text is intentionally kept to a minimum so as not to detract from the serene atmosphere of the background image.
+-   The total number of points scored is clearly stated.
 
--   Call to action button labelled Save which is disabled until a character is typed into the input field for the name above it. Then, when clicked, the scoreboard page is opened now displaying the saved score.
+-   The user is prompted to enter their name in the input box in order to save their score. 
 
--   Call to action button labelled Play again which when clicked opens the game page. 
+-   The save button below the input box is disabled until a character has been entered into the input box.
 
--   Call to action button labelled Home at the bottom of the scoreboard which when clicked opens the home page.
+-   Call to action button labelled "Play again" which when clicked opens the game page. 
+
+-   Call to action button labelled "Home" at the bottom of the scoreboard which when clicked opens the home page.
 
 ##### Scoreboard page
 
--   Scoreboard is shown with the header scoreboard and a maximum of 5 scores to be displayed.
+-   Scoreboard is shown with the header "Scoreboard" and a maximum of 5 scores to be displayed.
 
--   Call to action button labelled Home at the bottom of the scoreboard which when clicked opens the home page. 
+-   Call to action button labelled "Home" at the bottom of the scoreboard which when clicked opens the home page. 
 
 ### Future features
 
@@ -146,13 +148,17 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
     One error and one warning were given for the CSS code - [Results](./assets/images/testing/validation/cssbefore.png)
-    The error referred to the fact that for the hover effect on the buttons transform: scale(0.3rem) was used, rem is not allowed as a value for transform. Correcting this to transform: scale(1.3) resolved the error.
+    The error referred to the fact that for the hover effect on the buttons transform: scale(0.3rem) was used. Rem is not allowed as a value for transform. Correcting this to transform: scale(1.3) resolved the error.
+    
     The warning referred to the fact that the W3C CSS Validator cannot check linked/imported files in direct input. Style.css has an import link for the Google Font of 'Raleway' and the link to the background image for the home page. This seems to be a minor issue inherent to the way the validator is set up, but as it doesn't impact the function of the site I've decided to leave it as is. - [Results](./assets/images/testing/validation/cssafter.png)  
 
 -  [JSHint](https://jshint.com/)     
     The linter gave no fatal errors, only warnings. Most of these pertained to the fact that the syntax used is only available in ES6. As the code also doesn't produce any errors in ChromeDevTools I desiced to leave the code as it is. 
+    
     Script.js - [Results](./assets/images/testing/validation/scriptjs.png) 
+    
     Endgame.js - [Results](./assets/images/testing/validation/endgamejs.png)
+    
     Scoreboard.js - [Results](./assets/images/testing/validation/scoreboardjs.png) 
 
 ### Google Lighthouse
@@ -173,20 +179,30 @@ To test the responsiveness of the site [Chrome DevTools](https://developers.goog
 Screenshots for the home page and the game page are included. The end game and scoreboard pages with their minimal content followed the same line as the other two pages.
 
 #### Home page
-[Desktop 1920x1080](./assets/images/testing/responsiveness/desktop1920x1080.png)
-[Notebook 1366x768](./assets/images/testing/responsiveness/notebook1366x768.png)
-[Tablet 800x1280](./assets/images/testing/responsiveness/tablet800x1280.png)
-[Tablet 768x1024](./assets/images/testing/responsiveness/tablet768x1024.png)
-[Smartphone 414x736](./assets/images/testing/responsiveness/smartphone414x736.png)
-[Smartphone 320x568](./assets/images/testing/responsiveness/smartphone320x568.png)
+Desktop 1920x1080 - [View](./assets/images/testing/responsiveness/desktop1920x1080.png)
+
+Notebook 1366x768 - [View](./assets/images/testing/responsiveness/notebook1366x768.png)
+
+Tablet 800x1280 - [View](./assets/images/testing/responsiveness/tablet800x1280.png)
+
+Tablet 768x1024 - [View](./assets/images/testing/responsiveness/tablet768x1024.png)
+
+Smartphone 414x736 - [View](./assets/images/testing/responsiveness/smartphone414x736.png)
+
+Smartphone 320x568 - [View](./assets/images/testing/responsiveness/smartphone320x568.png)
 
 #### Game page
-[Desktop 1920x1080](./assets/images/testing/responsiveness/game1920x1080.png)
-[Notebook 1366x768](./assets/images/testing/responsiveness/game1366x768.png)
-[Tablet 800x1280](./assets/images/testing/responsiveness/game800x1280.png)
-[Tablet 768x1024](./assets/images/testing/responsiveness/game768x1024.png)
-[Smartphone 414x736](./assets/images/testing/responsiveness/game414x736.png)
-[Smartphone 320x568](./assets/images/testing/responsiveness/game320x568.png)
+Desktop 1920x1080 - [View](./assets/images/testing/responsiveness/game1920x1080.png)
+
+Notebook 1366x768 - [View](./assets/images/testing/responsiveness/game1366x768.png)
+
+Tablet 800x1280 - [View](./assets/images/testing/responsiveness/game800x1280.png)
+
+Tablet 768x104 - [View](./assets/images/testing/responsiveness/game768x1024.png)
+
+Smartphone 414x736 - [View](./assets/images/testing/responsiveness/game414x736.png)
+
+Smartphone 320x568 - [View](./assets/images/testing/responsiveness/game320x568.png)
 
 #### Conclusions
 Only on the smallest smartphone screen (320x480) did the background image interfere with the text on the buttons.  [Screensizemap](https://screensizemap.com/) was consulted to determine the popularity of this screen size.
@@ -210,7 +226,7 @@ It is listed as a known issue.
         3. The game page automatically opens into the end of game page upon completion of the game [View](./assets/images/testing/userstories/endgame.png)
         4. After submitting a username and saving their score, the scoreboard page also loads automatically [View]./(assets/images/testing/userstories/endgame2.png) and [View](./assets/images/testing/userstories/scoreboard.png)
                       
-    4. As a visiting user, I want to know my position in the game.
+    3. As a visiting user, I want to know my position in the game.
         
         1. On the game page the user is presented with the question counter in the top left hand corner. [View](./assets/images/testing/userstories/play.png)
         2. The counter shows what question out of ten question in a game the user is currently playing.
@@ -218,12 +234,12 @@ It is listed as a known issue.
         4. An easily distinguishable "Home" button sits at the bottom of the screen should the user wish to abort the game and return to the home page [View](./assets/images/testing/userstories/homebtn.png)
         5. At the end of the game, the end of game page is automatically opened and the user is urged to submit their name to be added to the scoreboard. [View](./assets/images/testing/userstories/endgame.png) 
                    
-    5. As a visiting user, I want to compete.
+    4. As a visiting user, I want to compete.
         
         1. On the home page, the user is first presented with a button labelled "How to play?" [View](./assets/images/testing/userstories/btnhowtoplay.png) which when clicked opens a modal with instructions [View](./assets/images/testing/userstories/modal.png)        
         2. On the home page, the user is presented with a button labelled "Let's Play" which when clicked opens the game page [View](./assets/images/testing/userstories/btnletsplay.png)
         3. The game page loads questions automatically  [View](./assets/images/testing/userstories/play.png)
-        4. Correctly answered questions are noted in this manner [View](./assets/images/testing/userstories/correct.png) while incorrectly answered questions are noted in this manner [View](./assets/images/testing/userstories/incorrect.png)
+        4. Correctly answered questions are noted in [this](./assets/images/testing/userstories/correct.png) manner while incorrectly answered questions are noted in [this](./assets/images/testing/userstories/incorrect.png) manner.
         4. At the end of the game the user is prompted to enter their name and submit their score.
         5. Alternatively, the user can view the scoreboard or play again to improve their score.  
 
@@ -238,7 +254,7 @@ It is listed as a known issue.
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the [It_sil_heve repository](https://github.com/)
+1. Log in to GitHub and locate the [It-sil-heve repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -250,13 +266,13 @@ The project was deployed to GitHub Pages using the following steps:
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [It_sil_heve repository](https://github.com/)
+1. Log in to GitHub and locate the [It-sil-heve repository](https://github.com/)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [It_sil_heve repository](https://github.com/)
+1. Log in to GitHub and locate the [It-sil-heve repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -277,13 +293,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap5](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [YouTube](https://www.youtube.com/watch?v=MxrGPP4F8Sc): I relied very heavily on this tutorial for the game page. 
+-   [YouTube](https://www.youtube.com/watch?v=MxrGPP4F8Sc): The game page with its JavaScript functionality was copied from this tutorial.   
 
 -   I feel compelled to mention I spend countless hours wading through repositories and tutorials. I learned so much and was influenced by all of it. So thank you to all who have shared JavaScript code relating to quiz games online, this project would not have been possible without you.
 
 ### Content
 
--   All content was written by the developer.
+-   Inspiration for the questions was taken from [Wikipedia](https://en.wikipedia.org/wiki/Elfstedentocht).
 
 ### Media
 
@@ -291,4 +307,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   Friends and family for feedback and helpful suggestions.
+-  Code Institure Student Care, Alexander Farrell for invaluable help.
+
+-  Code Institue assessors for understanding and leniency. 
+
+-  Friends and family for feedback and helpful suggestions.
