@@ -23,11 +23,13 @@ The purpose of this website is to provide the skating community with a quiz game
     -   #### Colour Scheme
         -   There are eight colours used throughout the site, the first two are main colours and the remaining six are used for accents.
         ##### Main colours
-                ![Coolors rendering of main colourscheme](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/maincolours.png?raw=true)
+           ![Coolors rendering of main colour scheme](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/maincolours.png?raw=true)
+            
             The colours #41464b and #a1b8d6 were chosen as they approach the palette of the background image on the index.html. The colours are cool to approach the colours seen in the landscape on a Dutch winter day, but with enough gray to not become too harsh when viewed on a screen.
         ##### Accent colours
-               ![Coolors rendering of effect colourscheme](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/effectcolours.png?raw=true)
-               The colours #3b4044, #3accf, #6e91bf, #90ee90 and #ffb6c1 are accent colours. The first two are used in hover effects and box-shadows. #6e91bf is used on the game.html page to better set apart the answer-prefix. The last two colours are also used on the game.html to indicate whether the correct or incorrect answer has been selected. 
+           ![Coolors rendering of effect colourscheme](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/effectcolours.png?raw=true)
+            
+            The colours #3b4044, #3accf, #6e91bf, #90ee90 and #ffb6c1 are accent colours. The first two are used in hover effects and box-shadows. #6e91bf is used on the game.html page to better set apart the answer-prefix. The last two colours are also used on the game.html to indicate whether the correct or incorrect answer has been selected. 
     -   #### Typography
         -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Raleway was chosen as it is an elegant sans-serif typeface family.
     -   #### Imagery
