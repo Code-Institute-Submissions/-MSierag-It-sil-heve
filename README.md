@@ -35,7 +35,7 @@ The purpose of this website is to provide the skating community with a quiz game
 
 *   ### Wireframes
 
-    -   Home page wireframe - [View](./assets/images/wireframes/itsilhevehome.png)
+    -   Home page wireframe - [View](../assets/images/wireframes/itsilhevehome.png)
 
     -   Game page wireframe - [View](./assets/images/wireframes/itsilhevegame.png)
 
