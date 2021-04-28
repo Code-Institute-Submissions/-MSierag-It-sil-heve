@@ -23,10 +23,10 @@ The purpose of this website is to provide the skating community with a quiz game
     -   #### Colour Scheme
         -   There are eight colours used throughout the site, the first two are main colours and the remaining six are used for accents.
         ##### Main colours
-                ![Coolors rendering of main colourscheme](./assets/images/maincolours.png)
+                ![Coolors rendering of main colourscheme](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/maincolours.png?raw=true)
             The colours #41464b and #a1b8d6 were chosen as they approach the palette of the background image on the index.html. The colours are cool to approach the colours seen in the landscape on a Dutch winter day, but with enough gray to not become too harsh when viewed on a screen.
         ##### Accent colours
-               ![Coolors rendering of effect colourscheme](./assets/images/effectcolours.png)
+               ![Coolors rendering of effect colourscheme](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/effectcolours.png?raw=true)
                The colours #3b4044, #3accf, #6e91bf, #90ee90 and #ffb6c1 are accent colours. The first two are used in hover effects and box-shadows. #6e91bf is used on the game.html page to better set apart the answer-prefix. The last two colours are also used on the game.html to indicate whether the correct or incorrect answer has been selected. 
     -   #### Typography
         -   The Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't being imported into the site correctly. Raleway was chosen as it is an elegant sans-serif typeface family.
@@ -37,15 +37,15 @@ The purpose of this website is to provide the skating community with a quiz game
 
     -   Home page wireframe - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/wireframes/Itsilhevehome.png?raw=true)
 
-    -   Game page wireframe - [View](./assets/images/wireframes/itsilhevegame.png)
+    -   Game page wireframe - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/wireframes/Itsilhevegame.png?raw=true)
 
-    -   End of game page wireframe - [View](./assets/images/wireframes/itsilheveendgame.png)
+    -   End of game page wireframe - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/wireframes/Itsilheveendgame.png?raw=true)
 
-    -   Scoreboard page wireframe - [View](./assets/images/wireframes/itsilhevescoreboard.png)
+    -   Scoreboard page wireframe - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/wireframes/Itsilhevescoreboard.png?raw=true)
 
-    -   Mobile wireframes - [View](./assets/images/wireframes/itsilhevesmartphone.png)
+    -   Mobile wireframes - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/wireframes/Itsilhevesmartphone.png?raw=true)
 
-    -   Tablet wireframes - [View](./assets/images/wireframes/itsilhevetablet.png)
+    -   Tablet wireframes - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/wireframes/Itsilhevetablet.png?raw=true)
 
 ## Features
 
@@ -138,34 +138,34 @@ The purpose of this website is to provide the skating community with a quiz game
 The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-    - Home - [Result](./assets/images/testing/validation/homehtml.png)
-    - Game - [Result](./assets/images/testing/validation/gamehtml.png)
-    - Endgame - [Result](./assets/images/testing/validation/endgamehtml.png)
-    - Scoreboard - [Result](./assets/images/testing/validation/scoreboardhtml.png)
+    - Home - [Result](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/homehtml.png?raw=true)
+    - Game - [Result](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/gamehtml.png?raw=true)
+    - Endgame - [Result](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/endgamehtml.png?raw=true)
+    - Scoreboard - [Result](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/scoreboardhtml.png?raw=true)
 
     No errors or warnings were given for the HTML code.
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-    One error and one warning were given for the CSS code - [Results](./assets/images/testing/validation/cssbefore.png)
+    One error and one warning were given for the CSS code - [Results](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/cssbefore.png?raw=true)
     The error referred to the fact that for the hover effect on the buttons transform: scale(0.3rem) was used. Rem is not allowed as a value for transform. Correcting this to transform: scale(1.3) resolved the error.
     
-    The warning referred to the fact that the W3C CSS Validator cannot check linked/imported files in direct input. Style.css has an import link for the Google Font of 'Raleway' and the link to the background image for the home page. This seems to be a minor issue inherent to the way the validator is set up, but as it doesn't impact the function of the site I've decided to leave it as is. - [Results](./assets/images/testing/validation/cssafter.png)  
+    The warning referred to the fact that the W3C CSS Validator cannot check linked/imported files in direct input. Style.css has an import link for the Google Font of 'Raleway' and the link to the background image for the home page. This seems to be a minor issue inherent to the way the validator is set up, but as it doesn't impact the function of the site I've decided to leave it as is. - [Results](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/cssafter.png?raw=true)  
 
 -  [JSHint](https://jshint.com/)     
     The linter gave no fatal errors, only warnings. Most of these pertained to the fact that the syntax used is only available in ES6. As the code also doesn't produce any errors in ChromeDevTools I desiced to leave the code as it is. 
     
-    Script.js - [Results](./assets/images/testing/validation/scriptjs.png) 
+    Script.js - [Results](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/scriptjs.png?raw=true) 
     
-    Endgame.js - [Results](./assets/images/testing/validation/endgamejs.png)
+    Endgame.js - [Results](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/endgamejs.png?raw=true)
     
-    Scoreboard.js - [Results](./assets/images/testing/validation/scoreboardjs.png) 
+    Scoreboard.js - [Results](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/validation/scoreboardjs.png?raw=true) 
 
 ### Google Lighthouse
 
 I used Google Lighthouse to audit the site's performance, accessibility, use of best practices and search engine optimization.
 
-Testing resulted in the following [score](./assets/images/testing/lighthouse/lighthouse.png):
+Testing resulted in the following [score](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/lighthouse/lighthouse.png?raw=true):
 -   Performance: 98%
 -   Accessibility: 100%
 -   Best Practices: 100%
@@ -179,30 +179,30 @@ To test the responsiveness of the site [Chrome DevTools](https://developers.goog
 Screenshots for the home page and the game page are included. The end game and scoreboard pages with their minimal content followed the same line as the other two pages.
 
 #### Home page
-Desktop 1920x1080 - [View](./assets/images/testing/responsiveness/desktop1920x1080.png)
+Desktop 1920x1080 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/desktop1920x1080.png?raw=true)
 
-Notebook 1366x768 - [View](./assets/images/testing/responsiveness/notebook1366x768.png)
+Notebook 1366x768 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/notebook1366x768.png?raw=true)
 
-Tablet 800x1280 - [View](./assets/images/testing/responsiveness/tablet800x1280.png)
+Tablet 800x1280 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/tablet800x1280.png?raw=true)
 
-Tablet 768x1024 - [View](./assets/images/testing/responsiveness/tablet768x1024.png)
+Tablet 768x1024 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/tablet768x1024.png?raw=true)
 
-Smartphone 414x736 - [View](./assets/images/testing/responsiveness/smartphone414x736.png)
+Smartphone 414x736 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/smartphone414x736.png?raw=true)
 
-Smartphone 320x568 - [View](./assets/images/testing/responsiveness/smartphone320x568.png)
+Smartphone 320x568 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/smartphone320x568.png?raw=true)
 
 #### Game page
-Desktop 1920x1080 - [View](./assets/images/testing/responsiveness/game1920x1080.png)
+Desktop 1920x1080 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/game1920x1080.png?raw=true)
 
-Notebook 1366x768 - [View](./assets/images/testing/responsiveness/game1366x768.png)
+Notebook 1366x768 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/game1366x768.png?raw=true)
 
-Tablet 800x1280 - [View](./assets/images/testing/responsiveness/game800x1280.png)
+Tablet 800x1280 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/game800x1280.png?raw=true)
 
-Tablet 768x104 - [View](./assets/images/testing/responsiveness/game768x1024.png)
+Tablet 768x104 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/game768x1024.png?raw=true)
 
-Smartphone 414x736 - [View](./assets/images/testing/responsiveness/game414x736.png)
+Smartphone 414x736 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/game414x736.png?raw=true)
 
-Smartphone 320x568 - [View](./assets/images/testing/responsiveness/game320x568.png)
+Smartphone 320x568 - [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/responsiveness/game320x568.png?raw=true)
 
 #### Conclusions
 Only on the smallest smartphone screen (320x480) did the background image interfere with the text on the buttons.  [Screensizemap](https://screensizemap.com/) was consulted to determine the popularity of this screen size.
@@ -215,31 +215,31 @@ It is listed as a known issue.
 
     1. As a visiting user, I want to easily understand the main purpose of the site.
 
-        1. Upon entering the site, users are automatically greeted with the clean and easily readable page which contains the title heading "It sil heve" and underneath that the subheading "Elfstedentocht quiz" with three buttons to go to the page of their choice. [View](./assets/images/testing/userstories/btnhowtoplay.png)
+        1. Upon entering the site, users are automatically greeted with the clean and easily readable page which contains the title heading "It sil heve" and underneath that the subheading "Elfstedentocht quiz" with three buttons to go to the page of their choice. [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/btnhowtoplay.png?raw=true)
         2. Underneath the titles are three buttons labelled "How to play?", "Let's play" and "Scoreboard". 
         3. Text has intentionally been kept to an absolute minimum.
         
     2. As a visiting user, I want to be able to easily navigate throughout the site.
 
-        1. The buttons on the home page provide the user with clearly marked links to the respective pages. These buttons are the same across all pages. [View](./assets/images/testing/userstories/btnletsplay.png)
-        2. The home button is located at the bottom of every screen [View](./assets/images/testing/userstories/homebtn.png), except of course the home page itself.
-        3. The game page automatically opens into the end of game page upon completion of the game [View](./assets/images/testing/userstories/endgame.png)
-        4. After submitting a username and saving their score, the scoreboard page also loads automatically [View]./(assets/images/testing/userstories/endgame2.png) and [View](./assets/images/testing/userstories/scoreboard.png)
+        1. The buttons on the home page provide the user with clearly marked links to the respective pages. These buttons are the same across all pages. [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/btnletsplay.png?raw=true)
+        2. The home button is located at the bottom of every screen [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/homebtn.png?raw=true), except of course the home page itself.
+        3. The game page automatically opens into the end of game page upon completion of the game [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/endgame.png?raw=true)
+        4. After submitting a username and saving their score, the scoreboard page also loads automatically [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/endgame2.png?raw=true) and [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/scoreboard.png?raw=true)
                       
     3. As a visiting user, I want to know my position in the game.
         
-        1. On the game page the user is presented with the question counter in the top left hand corner. [View](./assets/images/testing/userstories/play.png)
+        1. On the game page the user is presented with the question counter in the top left hand corner. [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/play.png?raw=true)
         2. The counter shows what question out of ten question in a game the user is currently playing.
         3. A new question is automatically loaded one second after submitting the answer to the previous question.
-        4. An easily distinguishable "Home" button sits at the bottom of the screen should the user wish to abort the game and return to the home page [View](./assets/images/testing/userstories/homebtn.png)
-        5. At the end of the game, the end of game page is automatically opened and the user is urged to submit their name to be added to the scoreboard. [View](./assets/images/testing/userstories/endgame.png) 
+        4. An easily distinguishable "Home" button sits at the bottom of the screen should the user wish to abort the game and return to the home page [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/homebtn.png?raw=true)
+        5. At the end of the game, the end of game page is automatically opened and the user is urged to submit their name to be added to the scoreboard. [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/endgame.png?raw=true) 
                    
     4. As a visiting user, I want to compete.
         
-        1. On the home page, the user is first presented with a button labelled "How to play?" [View](./assets/images/testing/userstories/btnhowtoplay.png) which when clicked opens a modal with instructions [View](./assets/images/testing/userstories/modal.png)        
-        2. On the home page, the user is presented with a button labelled "Let's Play" which when clicked opens the game page [View](./assets/images/testing/userstories/btnletsplay.png)
-        3. The game page loads questions automatically  [View](./assets/images/testing/userstories/play.png)
-        4. Correctly answered questions are noted in [this](./assets/images/testing/userstories/correct.png) manner while incorrectly answered questions are noted in [this](./assets/images/testing/userstories/incorrect.png) manner.
+        1. On the home page, the user is first presented with a button labelled "How to play?" [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/btnhowtoplay.png?raw=true) which when clicked opens a modal with instructions [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/modal.png?raw=true)        
+        2. On the home page, the user is presented with a button labelled "Let's Play" which when clicked opens the game page [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/btnletsplay.png?raw=true)
+        3. The game page loads questions automatically  [View](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/play.png?raw=true)
+        4. Correctly answered questions are noted in [this](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/correct.png?raw=true) manner while incorrectly answered questions are noted in [this](https://github.com/MSierag/It-sil-heve/blob/master/assets/images/testing/userstories/incorrect.png?raw=true) manner.
         4. At the end of the game the user is prompted to enter their name and submit their score.
         5. Alternatively, the user can view the scoreboard or play again to improve their score.  
 
